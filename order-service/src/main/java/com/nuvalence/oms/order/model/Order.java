@@ -19,4 +19,12 @@ public class Order {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "sku='" + sku + '\'' +
+                ", quantity=" + quantity +
+                '}';
+    }
 }
